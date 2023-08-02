@@ -68,11 +68,10 @@ module.exports = withBundleAnalyzer({
    *
    * @see https://nextjs.org/docs/pages/api-reference/components/image#unoptimized
    */
-   experimental: {
-    images: {
-        unoptimized: true
-    }
-},
+   images: {
+    loader: 'akamai',
+    path: '',
+  },
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   eslint: {
