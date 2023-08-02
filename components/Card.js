@@ -50,8 +50,8 @@ const Card = ({ title, description, imgSrc, href, role, link_word }) => (
           //   {link_word} &rarr;
           // </Link>
                                     <Link href={href}>
-                            <button class="inline-flex items-center rounded border border-gray-500 bg-transparent px-2 py-1 font-semibold text-gray-700 hover:border-transparent hover:bg-gray-500 hover:text-white">
-                              <span class="m-1">{link_word}</span>
+                            <button className="inline-flex items-center rounded border border-gray-500 bg-transparent px-2 py-1 font-semibold text-gray-700 hover:border-transparent hover:bg-gray-500 hover:text-white">
+                              <span className="m-1">{link_word}</span>
                             </button>
                           </Link>
         ): ('⚙️ Work In Progress...')} </div>

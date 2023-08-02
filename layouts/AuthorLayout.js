@@ -54,8 +54,8 @@ export default function AuthorLayout({ children, frontMatter }) {
           </div>
           <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">
             Hello, I am a PhD student in Computer Science at the University of Maryland, College Park,
-            advised by Prof. <a class="underline decoration-sky-500 font-semibold inline" href="https://junis.sakura.ne.jp/wp/" >Jun Nishda</a>. My research
-            focuses on <p class="underline decoration-sky-500 font-semibold inline">Human-Computer Interaction, Accessibility, and Extended Reality</p>. Currently, I
+            advised by Prof. <a className="underline decoration-sky-500 font-semibold inline" href="https://junis.sakura.ne.jp/wp/" >Jun Nishda</a>. My research
+            focuses on <p className="underline decoration-sky-500 font-semibold inline">Human-Computer Interaction, Accessibility, and Extended Reality</p>. Currently, I
             am actively engaged in the following research areas:
             <br></br>
             <ol>
@@ -73,7 +73,7 @@ export default function AuthorLayout({ children, frontMatter }) {
               </li>
             </ol>
 
-            <p class="font-semibold">
+            <p className="font-semibold">
             💡 I am actively seeking research collaborators and research internship opportunities. Feel free to reach out to me!
             </p>
           </div>
