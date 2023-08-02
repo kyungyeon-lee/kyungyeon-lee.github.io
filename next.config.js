@@ -1,8 +1,6 @@
 // @ts-check
 
-/**
- * @type {import('next').NextConfig}
- **/
+
 const nextConfig = {
   /**
    * Enable static exports for the App Router.
@@ -24,9 +22,11 @@ const nextConfig = {
    *
    * @see https://nextjs.org/docs/pages/api-reference/components/image#unoptimized
    */
-  images: {
-    unoptimized: true,
-  },
+   experimental: {
+    images: {
+        unoptimized: true
+    }
+}
 };
 
 module.exports = nextConfig;
