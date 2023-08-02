@@ -60,7 +60,7 @@ module.exports = withBundleAnalyzer({
    *
    * @see https://nextjs.org/docs/app/api-reference/next-config-js/basePath
    */
-  basePath: '/public',
+  basePath: '',
 
   /**
    * Disable server-based image optimization. Next.js does not support
