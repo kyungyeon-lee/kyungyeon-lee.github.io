@@ -53,14 +53,14 @@ const securityHeaders = [
 ]
 
 module.exports = withBundleAnalyzer({
-  output: "export",
+  output: 'export',
 
   /**
    * Set base path. This is usually the slug of your repository.
    *
    * @see https://nextjs.org/docs/app/api-reference/next-config-js/basePath
    */
-  basePath: "/kyungyeon-lee.github.io",
+  basePath: '/public',
 
   /**
    * Disable server-based image optimization. Next.js does not support
@@ -68,7 +68,7 @@ module.exports = withBundleAnalyzer({
    *
    * @see https://nextjs.org/docs/pages/api-reference/components/image#unoptimized
    */
-   images: {
+  images: {
     loader: 'akamai',
     path: '',
   },
