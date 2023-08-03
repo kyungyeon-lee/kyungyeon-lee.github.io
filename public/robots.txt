@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://kylee.vercel.app/sitemap.xml
