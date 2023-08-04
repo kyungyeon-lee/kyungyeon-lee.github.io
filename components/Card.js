@@ -1,7 +1,7 @@
 import Image from './Image'
 import Link from './Link'
 
-const Card = ({ title, description, imgSrc, href, role, link_word }) => (
+const Card = ({ title, description, imgSrc, href, href_2,role, link_word,link_word_2 }) => (
   <div className="md p-4 md:w-1/3" style={{ maxWidth: '544px' }}>
     <div
       className={`${
@@ -55,6 +55,13 @@ const Card = ({ title, description, imgSrc, href, role, link_word }) => (
                             </button>
                           </Link>
         ): ('⚙️ Work In Progress...')} </div>
+                {link_word_2 ? (
+            <Link href={href_2}>
+                            <button className="mx-2 inline-flex items-center rounded border border-gray-500 bg-transparent px-2 py-1 font-semibold text-gray-700 hover:border-transparent hover:bg-gray-500 hover:text-white">
+                              <span className="m-1">{link_word_2}</span>
+                            </button>
+                          </Link>
+        ): ('')}
     </div>
   </div>
 )

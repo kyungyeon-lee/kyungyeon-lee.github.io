@@ -26,6 +26,22 @@ const projectsData = [
     link_word: 'Demo',
   },
   {
+    title: 'VR Museum (2021)',
+    description: `Developed a virtual museum featuring spatial audio feedback and interactable 3D objects.`,
+    imgSrc: '/static/images/vr_project.png',
+    href: 'https://youtu.be/houCATBF3yI',
+    link_word: 'Demo',
+
+  },
+  {
+    title: 'Mixed Reality Newspaper (2021)',
+    description: `Implemented a MR newspaper using Microsoft Hololens to allow seniors to read digital news on an analog newspaper in real time. The advantages of physical newspapers (natural tangibility and inherent physical flexibility) and digital newspapers (allow users to view dynamic multimedia content) were combined.`,
+    imgSrc: '/static/images/mrnewspaper.png',
+    href: 'https://www.youtube.com/watch?v=3JbUpXnQJt4',
+    link_word: 'Demo',
+
+  },
+  {
     title: 'NLP Project (2020)',
     description: `Improved the full-text corpus of Genomics \& Informatics by semi-automatically detecting and correcting PDF-to-text conversion errors and optical character recognition errors.`,
     imgSrc: '/static/images/NLP.png',
@@ -42,6 +58,7 @@ const projectsData = [
     link_word: 'Report',
 
   },
+  
   {
     title: 'Project Achat with IBM Korea (2018)',
     description:

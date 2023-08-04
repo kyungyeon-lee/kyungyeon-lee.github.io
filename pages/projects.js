@@ -22,8 +22,10 @@ export default function Projects() {
                 description={d.description}
                 imgSrc={d.imgSrc}
                 href={d.href}
+                href_2={d.href_2}
                 role={d.role}
                 link_word ={d.link_word}
+                link_word_2 ={d.link_word_2}
               />
             ))}
           </div>
